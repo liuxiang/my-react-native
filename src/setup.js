@@ -44,9 +44,6 @@ class MainView extends Component {
         }
 
         var list = [
-            <Text style={title}>第1章  机械运动</Text>,
-            <Text>第1章  机械运动</Text>,
-            <Text>第1章  机械运动</Text>,
             <Text>第1章  机械运动</Text>,
             <Text>第1章  机械运动</Text>,
             <Text>第1章  机械运动</Text>,
@@ -55,7 +52,9 @@ class MainView extends Component {
 
         return (
             <View>
-                {list}
+                <Text style={title}>第1章  机械运动</Text>
+                <Text>第1章  机械运动</Text>
+                <Text>第1章  机械运动</Text>
             </View>
         );
     }
